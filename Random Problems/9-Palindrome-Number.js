@@ -1,9 +1,9 @@
 var isPalindrome = function(x) {
-    const char = String(x);
+    const string = String(x);
     let palindrome = true;
-    let j = char.length - 1;
-    for (let i = 0; i < Math.trunc(char.length / 2), j >= Math.trunc(char.length / 2); i++) {
-        if (char[i] !== char[j])
+    let j = string.length - 1;
+    for (let i = 0; i < Math.trunc(string.length / 2), j >= Math.trunc(string.length / 2); i++) {
+        if (string[i] !== string[j])
             palindrome = false;
         j--;
     }
